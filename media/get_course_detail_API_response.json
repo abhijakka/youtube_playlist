@@ -1,0 +1,46 @@
+{
+    "course_id": "709998",
+    "course_detail_api_status": "success",
+    "videos": [
+        {
+            "video_id": "VIDb13d494",
+            "video_title": "Ceramics Slab Roller Demo - Kate Murey",
+            "author_name": "Santa Fe College Educational Media Studio",
+            "date_of_publish": "9 months ago",
+            "youtube_url": "https://www.youtube.com/watch?v=exol-sdVNYM&list=PLKaDnmLfGTblwMfqkFj7uBo1cnohbhtXa&index=11&pp=iAQB",
+            "time_of_additon": "16-01-2024 15:20:45"
+        },
+        {
+            "video_id": "VIDb13da00",
+            "video_title": "Ceramics Glazing - Dipping & Pouring",
+            "author_name": "Santa Fe College Educational Media Studio",
+            "date_of_publish": "1 year ago",
+            "youtube_url": "https://www.youtube.com/watch?v=AZ-4EPfR4-M&list=PLKaDnmLfGTblwMfqkFj7uBo1cnohbhtXa&index=10&pp=iAQB",
+            "time_of_additon": "16-01-2024 15:20:45"
+        },
+        {
+            "video_id": "VIDb13d692",
+            "video_title": "Ceramics Glazing - Intro to Glaze & Shop Tiles",
+            "author_name": "Santa Fe College Educational Media Studio",
+            "date_of_publish": "1 year ago",
+            "youtube_url": "https://www.youtube.com/watch?v=eHkC8ma1FdM&list=PLKaDnmLfGTblwMfqkFj7uBo1cnohbhtXa&index=9&pp=iAQB",
+            "time_of_additon": "16-01-2024 15:20:45"
+        },
+        {
+            "video_id": "VIDb13d3bf",
+            "video_title": "SF Ceramics: Jar and Lid Introduction",
+            "author_name": "Santa Fe College Educational Media Studio",
+            "date_of_publish": "4 years ago",
+            "youtube_url": "https://www.youtube.com/watch?v=lS_gXV7BXxU&list=PLKaDnmLfGTblwMfqkFj7uBo1cnohbhtXa&index=5&pp=iAQB",
+            "time_of_additon": "16-01-2024 15:20:45"
+        },
+        {
+            "video_id": "VIDb13db84",
+            "video_title": "SF Ceramics: Spiral Wedging",
+            "author_name": "Santa Fe College Educational Media Studio",
+            "date_of_publish": "6 years ago",
+            "youtube_url": "https://www.youtube.com/watch?v=hckfuFi_wHE&list=PLKaDnmLfGTblwMfqkFj7uBo1cnohbhtXa&index=2&pp=iAQB",
+            "time_of_additon": "16-01-2024 15:20:45"
+        }
+    ]
+}

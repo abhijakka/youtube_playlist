@@ -1,0 +1,48 @@
+
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Detail</title>
+    <link rel="stylesheet" href="{% static 'course_details.css' %}">
+</head>
+<body>
+    <div class="course-detail-container">
+        <div class="video-section">
+       
+
+            <div class="video-player">
+                {% if selected_video.youtube_url %}
+                    <iframe width="1180" height="515" src="{{ selected_video.youtube_url }}" frameborder="0" allowfullscreen></iframe>
+                {% else %}
+                    <p>Video not available.</p>
+                {% endif %}
+            </div>
+            <p>Video URL: {{selected_video.youtube_url }}</p>
+            <div class="video-info">
+                <h3>{{ selected_video.video_title }}</h3>
+                <p>{{ selected_video.author_name }} - Published on {{ selected_video.date_of_publish }}</p>
+                <textarea placeholder="Notes"></textarea>
+            </div>
+        </div>
+        
+        <div class="video-list">
+            <h1>{{ course.course_name }}</h1>
+<ul>
+    {% for video in videos %}
+        <li style="padding:60px ;">
+            <a style="font-size: larger;" href="?video_id={{ video.video_id }}">{{ video.video_title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+        </div>
+    </div>
+
+
+   
+</body>
+</html>

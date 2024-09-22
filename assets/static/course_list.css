@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.course-list-container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.filters label, .filters select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.course-list {
+    width: 75%;
+}
+
+
+
+
+
+.courses {
+    list-style: none;
+    padding: 0;
+}
+
+.course-item {
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+    width: 150px;
+    height: 100px;
+    background-color: #b5651d;
+    margin-right: 20px;
+}
+
+.course-info {
+    flex-grow: 1;
+}
+
+.course-info h4 {
+    margin: 0;
+}
+
+.course-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.course-link:hover {
+    text-decoration: underline;
+}
+.search-bar {
+    display: flex;                     /* Use Flexbox */
+    align-items: center;              /* Center items vertically */
+    gap: 0.5rem;                      /* Space between the input and button */
+}
+
+.search-bar input[type="text"] {
+    flex: 1;                          /* Allow the input to grow */
+    padding: 0.5rem;                 /* Add some padding */
+    border: 1px solid #ccc;          /* Border for the input */
+    border-radius: 4px;              /* Rounded corners */
+}
+
+.search-bar button {
+    background-color: #007bff;       /* Button color */
+    color: white;                    /* Text color */
+    border: none;                    /* Remove default border */
+    border-radius: 4px;              /* Rounded corners */
+    padding: 0.5rem 1rem;            /* Padding for the button */
+    cursor: pointer;                  /* Pointer cursor on hover */
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;       /* Darker shade on hover */
+}
+
+button {
+    background-color: #007bff;       /* Button color */
+    color: white;                    /* Text color */
+    border: none;                    /* Remove default border */
+    border-radius: 4px;              /* Rounded corners */
+    padding: 0.5rem 1rem;            /* Padding for the button */
+    cursor: pointer;                  /* Pointer cursor on hover */
+}
+button:hover {
+    background-color: #0056b3;       /* Darker shade on hover */
+}

@@ -1,0 +1,232 @@
+{
+    "request_id": "CS_1b6cc9323sr",
+    "status": "success",
+    "input_json": {
+        "search_text": "",
+        "facets": true
+    },
+    "courses": [
+        {
+            "course_id": 709998,
+            "course_name": "Kate Murey - Ceramic Pottery",
+            "course_description": "\n\n  Detailed tutorial of making ceramic potteries.\n  \n",
+            "course_rating": "Three out of five stars",
+            "course_language": "English",
+            "course_duration": "Less than 1 hour of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZJ2svQsg6kU_ko6eL2Dp3fSDl9_SlAAm5rA&s",
+            "course_url": "/course/709998",
+            "course_subject": "Sales",
+            "course_topic": "Business",
+            "es_insert_timestamp": "04-01-2024 19:41:06"
+        },
+        {
+            "course_id": 106998,
+            "course_name": "Enable advanced IoT Edge scenarios with ACR connected registry | Azure Friday",
+            "course_provider": "YouTube",
+            "course_description": "Syllabus: – Introduction.  – Conceptual overview.  – Demo setup.  – Demo: Create a connected registry.  – Demo: Deploy and use a connected registry (parent and child).  – Demo: Offline connection.  – Demo: Connected registry synchronization.  – Wrap-up.\n  \n",
+            "course_language": "English",
+            "course_duration": "Less than 1 hour of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/0ee7fe354771.jpg",
+            "course_url": "/course/106998",
+            "course_subject": "Microsoft Azure",
+            "course_topic": "Programming",
+            "insert_timestamp": "04-01-2024 19:50:34"
+        },
+        {
+            "course_id": 108013,
+            "course_name": "Excel & Business Math 12: Reducing Fractions, Prime Factors and Understanding & Calculating Ratios",
+            "course_provider": "YouTube",
+            "course_description": "\n\n  Syllabus: ) Introduction. ) Factors. ) Prime Numbers. ) Reducing Fractions by hand. ) Reducing Fractions in Excel. ) Reducing Fractions and Keeping Units in Numerator and Denominator. ) How to reduce by canceling 10s. ) Calculating and Understanding Rati…\n  \n",
+            "course_language": "English",
+            "course_duration": "Less than 1 hour of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/8c6b7de9efdb.jpg",
+            "course_url": "/course/108013",
+            "course_subject": "Microsoft Office 365",
+            "course_topic": "Business",
+            "insert_timestamp": "04-01-2024 19:40:40"
+        },
+        {
+            "course_id": 108226,
+            "course_name": "Life Science and Biology Year in Review - Cells-Genetics-Evolution-Symbiosis-Biomes-Classification",
+            "course_provider": "YouTube",
+            "course_description": "\n\n  Syllabus: Introduction full-year review Biology.  Characteristics of Life.  Organelles of the cell.  Levels of organization.  Cell movement.  Mitosis.  Body systems Integumentary.  Skeletal.  Circulatory.  Immunity.  Excretory system.  Nervous system.  R…\n  \n",
+            "course_language": "English",
+            "course_duration": "1-2 hours worth of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/6ba80a828dd5.jpg",
+            "course_url": "/course/108226",
+            "course_subject": "Genetics",
+            "course_topic": "Science",
+            "es_insert_timestamp": "04-01-2024 19:54:02"
+        },
+        {
+            "course_id": 109063,
+            "course_name": "ProCreate Tutorial: Type Illustrations with Maggie Enterrios",
+            "course_description": "\n\n  Syllabus: – Who is Maggie Enterrios?.  – What are we working on in this demo?.  – How to think about working in digital – think practical.  – Procreate Demo begins.  – Setting up your canvas.  – How to use the text tool in ProCreate.  – Tips for masterin…\n  \n",
+            "course_rating": "Zero out of five stars",
+            "course_language": "English",
+            "course_duration": "1-2 hours worth of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9117a3ba93f1.jpg",
+            "course_url": "/course/109063",
+            "course_subject": "Visual Arts",
+            "course_topic": "Art & Design",
+            "es_insert_timestamp": "04-01-2024 19:47:40"
+        },
+        {
+            "course_id": 111753,
+            "course_name": "Biostatistics Tutorial Full course for Beginners to Experts",
+            "course_description": "\n\n  Syllabus: Module 1 - Introduction to Statistics.  Module 2 - Describing Data: Shape.  Module 3 - Describing Data: Central Tendency.  Module 4 - Describing Data: Variability.  Module 5 - Describing Data: Z-scores.  Module 6 - Probability (part I).  Module…\n  \n",
+            "course_rating": "Zero out of five stars",
+            "course_language": "English",
+            "course_duration": "7 hours worth of material",
+            "course_start_date": "On Demand",
+            "image_url": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/889aaa1f087d.jpg",
+            "course_url": "/course/111753",
+            "course_subject": "Biostatistics",
+            "course_topic": "Science",
+            "es_insert_timestamp": "04-01-2024 19:53:54"
+        }
+    ],
+    "facets": {
+        "course_language": [
+            {
+                "key": "english",
+                "doc_count": 231
+            },
+            {
+                "key": "hindi",
+                "doc_count": 2
+            },
+            {
+                "key": "spanish",
+                "doc_count": 1
+            }
+        ],
+        "course_duration": [
+            {
+                "key": "less than 1 hour of material",
+                "doc_count": 175
+            },
+            {
+                "key": "1-2 hours worth of material",
+                "doc_count": 23
+            },
+            {
+                "key": "2-3 hours worth of material",
+                "doc_count": 10
+            },
+            {
+                "key": "3-4 hours worth of material",
+                "doc_count": 9
+            },
+            {
+                "key": "4-5 hours worth of material",
+                "doc_count": 5
+            },
+            {
+                "key": "19 hours worth of material",
+                "doc_count": 3
+            },
+            {
+                "key": "10 hours worth of material",
+                "doc_count": 2
+            },
+            {
+                "key": "7 hours worth of material",
+                "doc_count": 2
+            },
+            {
+                "key": "11 hours worth of material",
+                "doc_count": 1
+            },
+            {
+                "key": "12 hours worth of material",
+                "doc_count": 1
+            }
+        ],
+        "course_subject": [
+            {
+                "key": "black hat",
+                "doc_count": 36
+            },
+            {
+                "key": "pop culture",
+                "doc_count": 28
+            },
+            {
+                "key": "biostatistics",
+                "doc_count": 22
+            },
+            {
+                "key": "flutter",
+                "doc_count": 21
+            },
+            {
+                "key": "hack in the box security conference",
+                "doc_count": 16
+            },
+            {
+                "key": "tedx",
+                "doc_count": 15
+            },
+            {
+                "key": "goto conferences",
+                "doc_count": 12
+            },
+            {
+                "key": "javascript",
+                "doc_count": 9
+            },
+            {
+                "key": "devoxx",
+                "doc_count": 8
+            },
+            {
+                "key": "security bsides",
+                "doc_count": 8
+            }
+        ],
+        "course_topic": [
+            {
+                "key": "conference talks",
+                "doc_count": 131
+            },
+            {
+                "key": "programming",
+                "doc_count": 32
+            },
+            {
+                "key": "humanities",
+                "doc_count": 28
+            },
+            {
+                "key": "science",
+                "doc_count": 26
+            },
+            {
+                "key": "art & design",
+                "doc_count": 5
+            },
+            {
+                "key": "computer science",
+                "doc_count": 5
+            },
+            {
+                "key": "business",
+                "doc_count": 3
+            },
+            {
+                "key": "health & medicine",
+                "doc_count": 2
+            },
+            {
+                "key": "information security (infosec)",
+                "doc_count": 2
+            }
+        ]
+    }
+}

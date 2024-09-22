@@ -1,0 +1,78 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course List</title>
+    <link rel="stylesheet" href="{% static 'course_list.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="course-list-container">
+        <!-- Sidebar for Filters -->
+        <div class="sidebar">
+            <h3>Filters</h3>
+            <form method="get" class="filters">
+                <!-- Dynamic Filter Fields -->
+                <label for="language">Language:</label>
+                <select name="language" id="language">
+                    <option value="">All</option>
+                    {% for lang in facets.course_language %}
+                        <option value="{{ lang.key }}" {% if selected_facets.language == lang.key %}selected{% endif %}>
+                            {{ lang.key|title }}
+                        </option>
+                    {% endfor %}
+                </select>
+
+                <label for="duration">Duration:</label>
+                <select name="duration" id="duration">
+                    <option value="">All</option>
+                    {% for dur in facets.course_duration %}
+                        <option value="{{ dur.key }}" {% if selected_facets.duration == dur.key %}selected{% endif %}>
+                            {{ dur.key }}
+                        </option>
+                    {% endfor %}
+                </select>
+
+                <label for="subject">Subject:</label>
+                <select name="subject" id="subject">
+                    <option value="">All</option>
+                    {% for subj in facets.course_subject %}
+                        <option value="{{ subj.key }}" {% if selected_facets.subject == subj.key %}selected{% endif %}>
+                            {{ subj.key|title }}
+                        </option>
+                    {% endfor %}
+                </select>
+
+                <button type="submit" >Filter</button>
+            </form>
+        </div>
+
+        <!-- Course List -->
+        <div class="course-list">
+            
+
+            <form method="GET" action="{% url 'course_list' %}" class="search-bar">
+                <input type="text" name="search_query" placeholder="Search courses..." value="{{ selected_facets.search_query }}">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+
+            <ul class="courses">
+                {% for course in courses %}
+                    <li class="course-item">
+                        <img src="{{ course.image_url }}" alt="Thumbnail" class="thumbnail">
+                        <div class="course-info">
+                            <h4><a href="{% url 'course_detail' course.course_id %}">{{ course.course_name }}</a></h4>
+                            <p>{{ course.course_description }}</p>
+                            <a href="{% url 'course_detail' course.course_id %}" class="course-link">View Course</a>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
